@@ -1,0 +1,22 @@
+{
+    "name": "06-webserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node server.js",
+        "nodemon": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.2",
+        "hbs": "^4.0.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mysql": "^2.18.1",
+        "webpack": "^5.76.3",
+        "webpack-dev-middleware": "^6.0.2"
+    }
+}
